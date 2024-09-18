@@ -3,91 +3,34 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>EcoMap</title>
-    <link rel="stylesheet" href="style.css">
+    <title>EcoMapLogin</title>
+    <link rel="stylesheet" href="styles/login.css">
 </head>
-<style>
-    .home {
-        background-color:#cbffcb;
-        border: solid 2px green;
-}
-</style>
 <body>
-    <header>
-        <h1 id="title">ECOMAP</h1> 
-        <img class="menu-icon" src="images/icons/menu.png" alt="icone-do-menu">
-    </header>
-    <main>
-        <nav>
-            <ul>
-                <a href="mapa.html">
-                    <li>
-                        <div class="content">
-                            <img src="images/icons/mapa.png" width="35px" height="35px">
-                        </div>
-                        <p>MAPAS</p>
-                    </li>
-                </a>
-                <a href="index.html">
-                    <li class="home">
-                        <div class="content">
-                            <img src="images/icons/botao-de-inicio.png" width="35px" height="35px">
-                        </div>
-                        <p>MENU</p>
-                     </li>
-                </a>
-                <a href="descartes.html">
-                    <li>
-                        <div class="content">
-                            <img src="images/icons/reciclavel.png" width="35px" height="35px">
-                        </div>
-                        <p>DESCARTES</p>
-                    </li>
-                </a>
-                <a href="perfil.html">
-                    <li>
-                        <div class="content">
-                            <img src="images/icons/usuario.png" width="35px" height="35px">
-                        </div>
-                        <p>PERFIL</p>
-                    </li>
-                </a>
-            </ul>
-        </nav>
-        <div class="carrossel">
-            <img src="images/sem-foto.png" alt="">
-        </div>
-        <section>
-            <div class="titulo-section">
-                <h3>INFORMAÇÕES SEMANAIS</h2>
+    
+    <div id="Login">
+        <div class="caixa">
+                <img src="https://logopng.com.br/logos/google-37.png" alt="logo google">
+            <p style="color: rgb(170, 177, 174);">Bem-vindo(a)!</p>
+            <h1>Entrar</h1>
+            <div class="email">
+               <p>Email:</p>
+                <input type="email" placeholder="E-mail">
             </div>
-            <ul class="lista-fotos">
-                <div class="coluna-fotos">
-                    <li class="colum">
-                        <img src="images/icons/globo-terrestre.png" alt="">
-                    </li>
-                    <li class="colum">
-                        <img src="images/icons/globo-terrestre.png" alt="">
-                    </li>
+            <p>Senha:   </p>
+            <div class="senha">
+                <input type="password" placeholder="Senha">
+               
+            </div>
+            <p class="pergunta1"><b>Esqueceu sua senha?</b></p>
+            <a href="home.html">
+                <div class="entrar">
+                    <input type="submit" value="Entrar">
                 </div>
-                <div class="coluna-fotos">
-                    <li class="colum">
-                        <img src="images/icons/globo-terrestre.png" alt="">
-                    </li>
-                    <li class="colum">
-                        <img src="images/icons/globo-terrestre.png" alt="">
-                    </li>
-                </div>
-                <div class="coluna-fotos">
-                    <li class="colum">
-                        <img src="images/icons/globo-terrestre.png" alt="">
-                    </li>
-                    <li class="colum">
-                        <img src="images/icons/globo-terrestre.png" alt="">
-                    </li>
-                </div>
-            </ul>
-        </section>
-    </main>
+            </a>
+            <p class="pergunta2" style="color: rgb(170, 177, 174);">Ainda não tem uma conta?</p>
+            <p  class="botao criar conta"> <a href="index.html"><b>Criar Conta</b></a></p>
+        </div>
+    </div>
 </body>
 </html>
