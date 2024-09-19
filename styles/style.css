@@ -103,7 +103,7 @@ li.colum{
     padding: 30px 45px;
 }
 
-li.colum img {
+li.colum > img {
     width: 50px;
     height: 50px
 }
