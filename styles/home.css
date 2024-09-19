@@ -1,0 +1,65 @@
+/*Corpo do site*/
+#container {
+    display: flex;
+}
+
+main {
+    margin: 4%;
+    display: flex;
+}
+
+/*informações semanais - section*/
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin: 20px 0px 20px 0px; 
+}
+
+li.colum {
+    display: flex;
+    background-color: white;
+    padding: 30px 55px;
+    margin-bottom: 20px;
+}
+
+li.colum > img {
+    width: 40px;
+    height: 40px
+}
+
+div.carrossel {
+    display: inline;
+    margin-bottom: 5%;
+}
+
+div.coluna-fotos {
+    display: block;
+}
+
+ul.lista-fotos {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 5%;
+    padding: 0;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+}
+
+nav {
+    margin-right: 5%;
+}
+
+@media (max-width: 1180px) {
+    div.carrossel > img{
+        width: 700px;
+    }
+}
+
+@media (max-width: 990px) {
+    div.carrossel > img {
+        width: 500px;
+    }
+}
