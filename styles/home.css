@@ -1,4 +1,9 @@
 /*Corpo do site*/
+.home {
+    background-color:#cbffcb;
+    border: solid 2px green;
+}
+
 #container {
     display: flex;
 }
