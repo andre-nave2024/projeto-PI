@@ -9,13 +9,11 @@
 }
 
 main {
-    margin: 4%;
+    margin-top: 4%;
+    margin: auto;
     display: flex;
 }
 
-nav {
-    margin-right: 4%;
-}
 
 /*informações semanais - section*/
 h3 {
@@ -38,6 +36,7 @@ li.colum > img {
 
 div.carrossel {
     display: inline;
+    margin-top: 70px;
     margin-bottom: 5%;
 }
 
