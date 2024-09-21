@@ -13,6 +13,10 @@ main {
     display: flex;
 }
 
+nav {
+    margin-right: 4%;
+}
+
 /*informações semanais - section*/
 h3 {
     text-align: center;
@@ -51,10 +55,6 @@ ul.lista-fotos {
 section {
     display: flex;
     flex-direction: column;
-}
-
-nav {
-    margin-right: 5%;
 }
 
 @media (max-width: 1180px) {

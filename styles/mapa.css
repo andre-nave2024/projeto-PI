@@ -1,0 +1,53 @@
+.mapas {
+    background-color:#cbffcb;
+    border: solid 2px green;
+}
+/*Corpo do site*/
+#container {
+    display: flex;
+}
+
+main {
+    margin: 5%;
+}
+
+/*Section*/
+
+select {
+    width: 12em;
+    height: 2em;
+    margin-bottom: 20px;
+}
+
+h3 {
+    text-align: center;
+    font-size: 1rem;
+    margin-top: 70px;
+}
+
+div.coluna-fotos {
+    display: flex;
+    justify-content: space-between;
+}
+
+div.img-locais > img{
+    width: 170px;
+    height: 120px;
+    border: 1px solid rgb(209, 209, 209);
+}
+
+div.img-locais > p {
+    font-size: 0.80rem;
+}
+
+@media (max-width: 1220px) {
+    div.local-section > img{
+        width: 700px;
+    }
+}
+
+@media (max-width: 990px) {
+    div.local-section > img {
+        width: 500px;
+    }
+}
