@@ -1,0 +1,41 @@
+.descartes {
+    background-color:#cbffcb;
+    border: solid 2px green;
+}
+
+/*Corpo do site*/
+#container {
+    display: flex;
+}
+
+main {
+    margin: auto;
+}
+
+select {
+    width: 12em;
+    height: 2em;
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 0.80rem;
+    margin: 4% 0px 8px 8px; 
+}
+
+.descartes-remedios {
+    display: none;
+}
+
+@media (max-width: 1220px) {
+    .descartes-remedios > img, .descartes-texteis > img, .descartes-eletro > img{
+        width: 700px;
+    }
+}
+
+@media (max-width: 990px) {
+    .descartes-remedios > img, .descartes-texteis > img, .descartes-eletro > img {
+        width: 500px;
+    }
+}

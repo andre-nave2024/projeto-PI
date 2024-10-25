@@ -1,0 +1,44 @@
+.user{
+    background-color:#cbffcb;
+    border: solid 2px green;
+}
+
+/*Topo do site*/
+header {
+    border: none;
+}
+
+/*Menu de navegação*/
+nav {
+    border: none;
+}
+
+/*Corpo do site*/
+#container {
+    display: flex;
+}
+
+main {
+    margin: auto;
+}
+
+.user-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-infos > img {
+    width: 50px;
+    height: 50px;
+    padding: 28px;
+    border-radius: 50%;
+    background-color: rgb(224, 224, 224);
+    margin-bottom: 10px;
+}
+
+.user-infos > button {
+    background-color: white;
+    color: #197519;
+    padding: 5px;
+    border: 1px solid rgb(182, 182, 182);
+}
