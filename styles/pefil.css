@@ -15,16 +15,21 @@ nav {
 
 /*Corpo do site*/
 #container {
-    display: flex;
+    display: flex; 
 }
 
 main {
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    display: flex;
 }
 
 .user-infos {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .user-infos > img {
@@ -41,4 +46,27 @@ main {
     color: #197519;
     padding: 5px;
     border: 1px solid rgb(182, 182, 182);
+}
+
+div.barra-progresso {
+    margin-top: 35px;
+    margin-bottom: 35px;
+    width: 900px;
+    height: 12px;
+    border-radius: 10%;
+    background-color: #ccc;
+}
+
+.barra-progresso div {
+    height: 100%;
+    border-radius: 10%;
+    background-color: #2E8B57;
+}
+
+.meus-salvos {
+    margin-top: 100px;
+}
+
+.meus-salvos h4 {
+    margin-left: 20px;
 }
