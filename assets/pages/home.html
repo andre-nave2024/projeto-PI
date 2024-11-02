@@ -6,6 +6,8 @@
     <title>EcoMap</title>
     <link rel="stylesheet" href="../css/home.css">
     <link rel="stylesheet" href="../css/reponsivo.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+/>
 </head>
 <body>
     <header>
@@ -53,8 +55,20 @@
         </nav>
         <main>
             <section>
-                <div class="carrossel">
-                    <img src="../images/sem-foto.png" alt="">
+                <!-- Utilizando a biblioteca do swiper -->
+                <div class="swiper">
+                    <!-- Additional required wrapper -->
+                    <div class="swiper-wrapper">
+                      <!-- Slides -->
+                      <div class="swiper-slide"><img src="../images/sem-foto.png" alt="foto-1"></div>
+                      <div class="swiper-slide"><img src="../images/sem-foto.png" alt="foto-2"></div>
+                    </div>
+                    <!-- If we need pagination -->
+                    <div class="swiper-pagination"></div>
+                  
+                    <!-- buttons -->
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
                 </div>
                 <h3>INFORMAÇÕES SEMANAIS</h2>
                     <ul class="lista-fotos">
@@ -86,5 +100,7 @@
             </section>
         </main>
     </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="../js/carrossel.js"></script>
 </body>
 </html>

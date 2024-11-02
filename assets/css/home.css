@@ -34,10 +34,11 @@ li.colum > img {
     height: 40px
 }
 
-div.carrossel {
-    display: inline;
-    margin-top: 70px;
-    margin-bottom: 5%;
+/* configurações do swiper - carrossel de fotos (altura e largura)*/
+.swiper {
+    margin-top: 50px;
+    width: 880px;
+    height: 320px;
 }
 
 div.coluna-fotos {
@@ -57,7 +58,12 @@ section {
 }
 
 @media (max-width: 1180px) {
-    div.carrossel > img{
+    .swiper {
+        width: 650px;
+        height: 300px;
+    }
+
+    .swiper-slide img {
         width: 700px;
     }
 }
