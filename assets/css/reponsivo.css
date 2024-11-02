@@ -69,10 +69,11 @@ li {
 }
 
 li > p {
-    font-size: 0.67rem;
+    font-size: 0.80rem;
     color: rgb(107, 107, 107);
     display: table;
     margin: auto;
+    font-weight: 600;
 }
     
 .content {
@@ -85,6 +86,11 @@ li > p {
 /* Personalizando fonte do menu de navegação lateral */
 .p-menu_navegacao {
     font-weight: 700;
+}
+
+li:hover {
+    background-color: #cbffcb;
+    border-color: green;
 }
 
 /*
