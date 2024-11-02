@@ -12,6 +12,6 @@ function atualizarProgresso() {
         progresso.style.width = porcentagem + '%'
     })
 
-    console.log(`marcados: ${checkboxesMarcados}, porcentagem: ${porcentagem}, total ${total}`)
+    // console.log(`marcados: ${checkboxesMarcados}, porcentagem: ${porcentagem}, total ${total}`)
 }
 atualizarProgresso()
