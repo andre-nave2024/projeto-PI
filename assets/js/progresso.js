@@ -1,6 +1,7 @@
 const progresso = document.querySelector(".barra-progresso div")
 const checkboxes = document.querySelectorAll('input[type="checkbox"]')
 
+//Função que atualiza o progresso no checbox
 function atualizarProgresso() {
     const total = checkboxes.length
     const checkboxesMarcados = Array.from(checkboxes).filter(checkbox => checkbox.checked).length
