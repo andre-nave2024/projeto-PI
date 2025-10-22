@@ -17,6 +17,12 @@ a {
     text-decoration: none;
 }
 
+button {
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+
 /*Topo do site*/
 header {
     border-bottom: 2px solid rgb(212, 212, 212);
@@ -98,3 +104,12 @@ li:hover {
     
 }
 */
+
+#menu-hamburguer {
+    display: none;
+    
+}
+
+#menu-button {
+    cursor: pointer;
+}

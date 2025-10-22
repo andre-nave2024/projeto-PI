@@ -12,8 +12,19 @@
 <body>
     <header>
         <h1 id="title">ECOMAP</h1>
-        <div class="menu-icon_flex"><img class="menu-icon" src="../images/icons/menu.png" alt="icone-do-menu" width="50"
-                height="50">
+        <div class="menu-icon_flex">
+            <button id="menu-button">
+                <img class="menu-icon" src="../images/icons/menu.png" alt="icone-do-menu" width="50"
+                        height="50">
+            </button>
+                    <div id="menu-hamburguer">
+                        <ul>
+                            <li><a href="">Item 1</a></li>
+                            <li><a href="">Item 2</a></li>
+                            <li><a href="">Item 3</a></li>
+                            <li><a href="">Item 4</a></li>
+                        </ul>
+                    </div>
         </div>
     </header>
     <div id="container">
@@ -102,5 +113,6 @@
     </div>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script src="../js/carrossel.js"></script>
+    <script src="../js/menuController.js"></script>
 </body>
 </html>
