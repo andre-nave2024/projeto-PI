@@ -25,12 +25,19 @@ button {
 
 /*Topo do site*/
 header {
+    display: flex;
+    justify-content: space-between; /* separa o conteúdo */
+    align-items: center;
     border-bottom: 2px solid rgb(212, 212, 212);
     padding-bottom: 0.5%;
+    height: 60px;
+    overflow: visible; /* impede que o conteúdo esconda o menu */
+
 }
 
 #title {
-    text-align: center;
+    flex: 1; /* ocupa o espaço central */
+    text-align: center; /* centraliza dentro do espaço dele */
     color: #197519;
     font-size: 1.3rem;
     font-weight: 900;
@@ -39,10 +46,9 @@ header {
 }
 
 .menu-icon_flex {
-    display: inline-block;
-    position: absolute;
-    right: 2%;
-    top: 1%;
+    display: flex;
+    flex-direction: column;
+    align-self: self-end;
 }
 
 .menu-icon_flex > img {
@@ -107,7 +113,12 @@ li:hover {
 
 #menu-hamburguer {
     display: none;
-    
+    background-color: gray;
+    padding: 2rem;
+    position: absolute;
+    top: 60px; /* distância do topo */
+    right: 20px; /* canto direito */
+
 }
 
 #menu-button {
